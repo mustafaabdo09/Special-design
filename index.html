@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Design</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/fc93490e61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="background">
+        <div class="overlay"></div>
+        <div class="container priorty">
+            <nav class="navbar navbar-expand-lg navBar">
+                <span class="navbar-brand logo">Special Design </span>
+                <button class="navbar-toggler navbar-dark custom-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarcontent">
+                    <ul class="navbar-nav ml-auto links open">
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#aboutUs">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#Skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#timeline">Timeline</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#Testimonials">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container HText ">
+            <h1>We Are <span>Creative </span>Agency</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit nihil ullam nesciunt quidem iste
+            </p>
+        </div>
+        <div class="settings-box">
+            <div class="settings-icon">
+                <i class="fa fa-gear fa-sm"></i>
+            </div>
+            <div class="settings-container">
+                <div class="option-box">
+                    <h6>Colors</h6>
+                    <ul class="colors-option">
+                        <li data-color="#FF9800"></li>
+                        <li data-color="#E91E63"></li>
+                        <li data-color="#009688"></li>
+                        <li data-color="#03A9F4"></li>
+                        <li data-color="#4CAF50"></li>
+                    </ul>
+                </div>
+                <div class="option-box">
+                    <h6>Random Backgrounds</h6>
+                    <div id="random-background">
+                        <span class="yes" value="yes">Yes</span>
+                        <span class="no" value="no">No</span>
+                    </div>
+                </div>
+                <div class="option-box">
+                    <h6>Show Bullets</h6>
+                    <div id="Show-Bullets">
+                        <span class="yes" value="show">Yes</span>
+                        <span class="no" value="none">No</span>
+                    </div>
+                </div>
+                <div class="option-box reset">
+                    <button type="button" class="btn btn-danger btn-md">
+                        Reset Options
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="aboutUs" class="container-fluid">
+        <div class="row">
+            <div class="col-md-7 aboutus-txt">
+                <h2>About Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsum, tenetur dolores esse magni ratione distinctio! Quod iusto neque fuga, maxime quos nostrum quibusdam dicta deserunt blanditiis non voluptate id?
+                </p>
+            </div>
+            <div class="col-md-5 aboutus-img">
+                <img src="imgs/about-us.jpg" alt="about-us" />
+            </div>
+        </div>
+    </div>
+    <div id="Skills" class="skills">
+        <h2>Our Skills</h2>
+        <div class="container">
+            <div class="row skill-box align-items-center">
+                <div class="col-md-1 skill-name">HTML</div>
+                <div class="col-md-11 skill-progress">
+                    <span data-width="80%"></span>
+                </div>
+            </div>
+
+            <div class="row skill-box align-items-center">
+                <div class="col-md-1 skill-name">CSS</div>
+                <div class="col-md-11 skill-progress">
+                    <span data-width="50%"></span>
+                </div>
+            </div>
+
+            <div class="row skill-box align-items-center">
+                <div class="col-md-1 skill-name">JavaScript</div>
+                <div class="col-md-11 skill-progress">
+                    <span data-width="75%"></span>
+                </div>
+            </div>
+
+            <div class="row skill-box align-items-center">
+                <div class="col-md-1 skill-name">Python</div>
+                <div class="col-md-11 skill-progress">
+                    <span data-width="35%"></span>
+                </div>
+            </div>
+
+            <div class="row skill-box align-items-center">
+                <div class="col-md-1 skill-name">PHP</div>
+                <div class="col-md-11 skill-progress">
+                    <span data-width="40%"></span>
+                </div>
+            </div>
+
+            <div class="row skill-box align-items-center">
+                <div class="col-md-1 skill-name">MySQL</div>
+                <div class="col-md-11 skill-progress">
+                    <span data-width="55%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gallery" class="gallery container-fluid ">
+        <h2>Our Gallery</h2>
+        <div class="row align-items-center justify-content-center">
+            <img class="col-7 col-sm-5 col-md-3 col-lg-2 col-xl-2 gImg" value=" One " src="imgs/01.jpg " />
+            <img class="col-7 col-sm-5 col-md-3 col-lg-2 col-xl-2 gImg" value="Two " src="imgs/02.jpg " />
+            <img class="col-7 col-sm-5 col-md-3 col-lg-2 col-xl-2 gImg" value="Three " src="imgs/03.jpg " />
+            <img class="col-7 col-sm-5 col-md-3 col-lg-2 col-xl-2 gImg" value="Four " src="imgs/04.jpg " />
+            <img class="col-7 col-sm-5 col-md-3 col-lg-2 col-xl-2 gImg" value="Five " src="imgs/05.jpg " />
+            <img class="col-7 col-sm-5 col-md-3 col-lg-2 col-xl-2 gImg" value="Six " src="imgs/06.jpg " />
+            <img class="col-7 col-sm-5 col-md-3 col-lg-2 col-xl-2 gImg" value="Seven " src="imgs/07.jpg " />
+            <img class="col-7 col-sm-5 col-md-3 col-lg-2 col-xl-2 gImg" value="Eight " src="imgs/08.jpg " />
+            <img class="col-7 col-sm-5 col-md-3 col-lg-2 col-xl-2 gImg" value="Nine " src="imgs/09.jpg " />
+            <img class="col-7 col-sm-5 col-md-3 col-lg-2 col-xl-2 gImg" value="Ten " src="imgs/10.jpg " />
+        </div>
+    </div>
+    <div class="popup-overlay "></div>
+    <div class="popUp ">
+        <h5></h5>
+        <img src=" " />
+        <span class="exit ">X</span>
+    </div>
+    <div id="timeline" class=" timeline container-fluid ">
+        <div class="container ">
+            <div class="timeline-content ">
+                <div class="year ">2018</div>
+                <div class="left ">
+                    <div class="content ">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+                    </div>
+                </div>
+                <div class="clearfix "></div>
+                <div class="right ">
+                    <div class="content ">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+                    </div>
+                </div>
+                <div class="clearfix "></div>
+                <div class="year ">2016</div>
+                <div class="left ">
+                    <div class="content ">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+                    </div>
+                </div>
+                <div class="clearfix "></div>
+                <div class="left ">
+                    <div class="content ">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+                    </div>
+                </div>
+                <div class="clearfix "></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="features" class="features container-fluid ">
+        <h2>Our Features</h2>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-sm-6 col-lg-4 feature ">
+                    <img src="imgs/programming.svg ">
+                    <h5>Development</h5>
+                    <hr>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 feature ">
+                    <img src="imgs/advertising.svg ">
+                    <h5>Marketing</h5>
+                    <hr>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 feature ">
+                    <img src="imgs/hosting-icon.svg ">
+                    <h5>Hosting</h5>
+                    <hr>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 feature ">
+                    <img src="imgs/mobile-app.svg ">
+                    <h5>Mobile Develope</h5>
+                    <hr>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 feature ">
+                    <img src="imgs/graphic-design.svg ">
+                    <h5>Marketing</h5>
+                    <hr>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 feature ">
+                    <img src="imgs/web-design.svg ">
+                    <h5>Hosting</h5>
+                    <hr>
+                    <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="Testimonials" class="Testimonials container-fluid ">
+        <div class="container ">
+            <h2>Testimonials</h2>
+            <div class="row ">
+                <div class="col-md Tbox ">
+                    <p class="text ">Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <h5>Ahmed Mosaad</h5>
+                    <p> CEO At Company </p>
+                </div>
+                <div class="col-md Tbox ">
+                    <p class="text ">Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <h5>Mohamed Ibrahim </h5>
+                    <p> CEO At Company </p>
+                </div>
+                <div class="col-md Tbox ">
+                    <p class="text ">Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <h5>Sherief Ashraf</h5>
+                    <p> CEO At Company </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact " class="contact container-fluid  ">
+        <h2>Contact Us</h2>
+        <div class="container ">
+            <form>
+                <div class="row ">
+                    <div class="col-sm-6 ">
+                        <input type="text " class=" form-control mb-2 " id="name " placeholder="Your Name ">
+                        <input type="tel " class=" form-control mb-2 " id="phone " placeholder="Your phone ">
+                        <input type="email " class="form-control mb-2 " id="email " placeholder="Enter email ">
+                        <input type="text " class="form-control mb-2 " id="subject " placeholder="Subject ">
+                    </div>
+                    <div class="col-sm-6 ">
+                        <textarea name="message " class="form-control " placeholder="Your Message " spellcheck="false "></textarea>
+                        <button type="submit " class="btn sendBtn ">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="bullets">
+        <ul>
+            <li>
+                <a href="#aboutUs" data-toggle="tooltip" data-placement="left" title="About Us"></a>
+
+            </li>
+            <li>
+                <a href="#Skills" data-toggle="tooltip" data-placement="left" title="Our Skills"></a>
+
+            </li>
+            <li>
+                <a href="#gallery" data-toggle="tooltip" data-placement="left" title="Our Gallery"></a>
+            </li>
+            <li>
+                <a href="#timeline" data-toggle="tooltip" data-placement="left" title="TimeLine"></a>
+            </li>
+            <li>
+                <a href="#features" data-toggle="tooltip" data-placement="left" title="Features"></a>
+            </li>
+            <li>
+                <a href="#Testimonials" data-toggle="tooltip" data-placement="left" title="Testimonials"></a>
+            </li>
+        </ul>
+    </div>
+    <footer> Created With Love By Mustafa Abdo</footer>
+
+    <script src=" js/master.js "></script>
+</body>
+
+
+</html>
